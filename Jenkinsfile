@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git, explicitly specifying the branch (main)
-                git url: 'https://github.com/Harshini-programmer-2006/credit_risk_management.git', branch: 'main'
+                git url: 'https://github.com/Harshini-programmer-2006/test_selenium.git', branch: 'main'
             }
         }
         stage('Test Python') {
